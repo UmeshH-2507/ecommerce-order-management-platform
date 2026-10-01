@@ -1,0 +1,45 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Maven
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+hs_err_pid*
+replay_pid*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large archives / dumps
+*.tar
+*.zip
+*.rar
+*.7z
+
+# Java
+*.class
+
+# Temporary files
+*.tmp
+*.temp
+
+# Frontend dependencies
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+
+# Generated Spring Boot files
+**/BOOT-INF/
+**/META-INF/
